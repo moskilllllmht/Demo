@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+<<<<<<< HEAD
 #include "tinhtoan.h"
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
@@ -9,5 +10,15 @@ int main(int argc, char *argv[]) {
 	printf("\nHieu hai so la: %d",tru(a,b));
 	printf("\nTich hai so la: %d",nhan(a,b));
 	printf("\nThuong hai so la: %f",chia(a,b));
+=======
+#include "date.h"
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	Date d;
+	inputDate(&d);
+	outputDate(d);
+>>>>>>> 0034866711781079b8052383327c0cd11cc9e925
 	return 0;
 }
